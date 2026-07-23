@@ -1,52 +1,99 @@
-# Oversyniq Platform
+# Oversyniq
 
-Oversyniq is a modular Operational Intelligence Platform designed for industrial, offshore and field service organizations.
+**Operational Intelligence Platform**
 
-## Repository Structure
+Oversyniq is a modern SaaS platform that helps organizations manage operations, assets, inspections, incidents, maintenance, and compliance in one unified system.
 
-```
-apps/
-    app/        Main SaaS application
-    web/        Marketing website
+The goal is simple:
 
-backend/
-    pocketbase/
-    migrations/
-    hooks/
+> Make work flow.
 
-packages/
-    ui/
-    types/
-    utils/
-    config/
-    api-client/
+---
 
-infra/
-    cloudflare/
-    docker/
-    nginx/
-    scripts/
+## Vision
 
-docs/
-```
+Most operational software focuses on storing data.
 
-## Technology Stack
+Oversyniq focuses on helping people make better operational decisions by presenting the right information at the right time.
+
+---
+
+## Core Modules
+
+- Incident Management
+- Asset Management
+- Inspection & Checklists
+- Work Orders
+- Preventive Maintenance
+- Dashboards & Analytics
+- AI Assistant
+- Document Management
+- User & Role Management
+
+---
+
+## Technology
+
+Current stack:
 
 - React
 - TypeScript
 - Vite
-- PocketBase
 - Tailwind CSS
-- Docker
+- PocketBase (backend)
 - Cloudflare
 - GitHub Actions
 
+---
+
+## Repository Structure
+
+```
+oversyniq-platform/
+│
+├── apps/
+│   ├── app/          # SaaS application
+│   └── web/          # Marketing website
+│
+├── backend/
+├── docs/
+├── infra/
+└── .github/
+```
+
+---
+
+## Development
+
+Install dependencies:
+
+```bash
+cd apps/app
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+---
+
 ## Deployment
+
+Deployment is handled using the project deployment script.
 
 ```bash
 ./infra/scripts/deploy.sh
 ```
 
-## License
+---
 
-MIT
+## Status
+
+Current version:
+
+**Pre-Alpha**
+
+This project is under active development.
