@@ -1,0 +1,21 @@
+Read .codex/instructions.md.
+
+Then read the most appropriate prompt from .codex/prompts.
+
+Read the entire project before making any changes.
+
+Follow the existing architecture and coding conventions.
+
+Explain your implementation plan.
+
+Implement the requested change.
+
+Run npm run build.
+
+Fix every TypeScript error you introduced.
+
+Finally provide a concise summary including:
+- Files modified
+- What changed
+- Why
+- Any follow-up recommendations

@@ -1,0 +1,19 @@
+{
+  "name": "oversyniq-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Oversyniq Operational Intelligence Platform",
+  "author": "Oversyniq",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "echo \"Run the application from apps/app\"",
+    "build": "echo \"Build workspace applications\"",
+    "deploy": "./infra/scripts/deploy.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
